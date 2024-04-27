@@ -4,7 +4,7 @@ export default function PageLayout() {
   return (
     <div className="min-h-full">
       <NavBar />
-      <main className="px-8 pb-4 lg:px-16">
+      <main className="px-8 py-4 lg:px-16">
         <Outlet />
       </main>
     </div>
